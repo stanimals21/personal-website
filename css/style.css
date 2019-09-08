@@ -62,12 +62,12 @@ body{
 
 #main{
 	float:left;
-	width:100%;
+	width:80%;
 	padding:0 30px;
 	box-sizing: border-box;
 	font-size: 16px;
 	line-height: 1.6em;
-	border: #333;
+
 }
 
 #main_home{
@@ -77,9 +77,17 @@ body{
 	box-sizing: border-box;
 	font-size: 20px;
 	line-height: 1.6em;
-	border: #333;
 	vertical-align: middle;
+
 }
+
+.sub{
+	border-left:solid;
+	border-width: 0 3px;
+	padding-left:10px;
+	border-color: #356DF7
+}
+
 /**
 #sidebar{
 	float:right;
