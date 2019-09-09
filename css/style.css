@@ -67,7 +67,13 @@ body{
 	box-sizing: border-box;
 	font-size: 16px;
 	line-height: 1.6em;
+}
 
+#main ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display:inline;
 }
 
 #main_home{
@@ -89,6 +95,14 @@ body{
 	margin-bottom: 20px;
 }
 
+.proj{
+	border-left:solid;
+	border-width: 0 3px;
+	padding-left:10px;
+	border-color: rgba(233, 137, 58, 0.945);
+	margin-bottom: 20px;
+}
+
 .sub ul{
 	margin: 0;
 	padding: 0;
@@ -98,14 +112,13 @@ body{
 
 #github_thumb{
 
-	width: 100px;
+	width: 50px;
 	height: auto;
-	padding: 0;
-	border: #333;
+	padding-right: 15px;
 }
 
 #linkedin_thumb{
-	width: 100px;
+	width: 50px;
 	height:auto;
 }
 
@@ -119,6 +132,11 @@ body{
 	box-sizing: border-box;
 }
 **/
+
+.inline-block {
+	display: inline-block;
+	list-style: none;
+ }
 
 #avatar{
 	padding: 10px;
