@@ -85,7 +85,28 @@ body{
 	border-left:solid;
 	border-width: 0 3px;
 	padding-left:10px;
-	border-color: #356DF7
+	border-color: #356DF7;
+	margin-bottom: 20px;
+}
+
+.sub ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display:inline;
+}
+
+#github_thumb{
+
+	width: 100px;
+	height: auto;
+	padding: 0;
+	border: #333;
+}
+
+#linkedin_thumb{
+	width: 100px;
+	height:auto;
 }
 
 /**
